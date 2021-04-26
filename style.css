@@ -1,0 +1,32 @@
+button img{
+    width: 150px;
+    height: 200px;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    height: 100vh;
+    background: url("./images/bg.jpg") no-repeat center/cover;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.message {
+    position: absolute;
+    top: 353px;
+    padding: 10px;
+    background: rgba(0,0,0,.5);
+}
+
+.score {
+    position: absolute;
+    top: 407px;
+    padding: 10px;
+    background: rgba(0,0,0,.5);
+}
